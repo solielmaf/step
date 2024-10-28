@@ -43,10 +43,10 @@ function Steps() {
             Step {step}:{messages[step - 1]}{" "}
           </p>
           <div className="buttons">
-            <Button bgColor="#7950f2" color="#fff" onClick={handlePrevious}>
+            <Button bgColor="#7950f0" color="#fff" onClick={handlePrevious}>
               <span>👈</span> previous
             </Button>
-            <Button bgColor="#7950f2" color="#fff" onClick={handleNext}>
+            <Button bgColor="#7950f0" color="#fff" onClick={handleNext}>
               Next <span>👉</span>
             </Button>
           </div>
